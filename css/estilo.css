@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+
+}
+body{
+    background:url(../img/bg.jpg);
+    background-size: cover;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 1500%;
+    color: rgba(255,255,255,.7);
+    border: 1px dashed rgba(255,255,255,.7);
+    padding: 0 1%;
+}
+footer{
+    position: absolute;
+    width:100%;
+    bottom: 0px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+a{
+    font: 110% verdana;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+a:hover{
+    color:yellow;
+}
