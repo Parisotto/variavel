@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet & Protocolos</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html, body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+        h1{
+            font-size:60px;
+            text-align: center;
+        }
+        h2{
+            font-size: 40px;
+            margin: 30px;
+        }
+        h3{
+            font-size: 30px;
+            margin: 30px;
+        }
+        section{
+            min-height: 800px;
+            text-align: center;
+        }
+        ul{
+            display: inline-block;
+            margin: 10px auto;
+        }
+        li{
+            display: inline-block;
+        }
+        li span, li a {
+            text-decoration: none;
+            color:white;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px 25px;
+            border:1px solid white;
+            border-radius: 10px;
+        }
+        header{
+            text-align: center;
+            background-color: rgba(255,255,255,.3);
+        }
+        #s01{
+            background: #0069CD url('01.png') center center no-repeat;
+            background-size: contain;
+        }
+        .c01 {
+            background-color: coral;
+        }
+        .c02 {
+            background-color: darkcyan;
+        }
+        .c03 {
+            background-color: darkorchid;
+        }
+        .c04 {
+            background-color: brown;
+        }
+        .c05 {
+            background-color:forestgreen;
+        }
+        .c06 {
+            background-color:#0069CD;
+        }
+
+ 
+        p {
+            font-size: 35px;
+            margin: 40px;
+            color:black;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <section id="s01">
+        <header>
+            <ul>
+                <li><a href="#"><</a></li>
+                <li><span>1</span></li>
+                <li><a href="#s02">></a></li>
+            </ul>
+        </header>
+        <article id="a01">
+            <h1>Internet & Protocolos</h1>
+        </article>
+    </section>
+
+    <section class="c02" id="s02">
+        <header>
+            <ul>
+                <li><a href="#s01"><</a></li>
+                <li><span>2</span></li>
+                <li><a href="#s03">></a></li>
+            </ul>
+        </header>
+        <article>
+            <h1>O que é Rede?</h1>
+            <h2>Definição</h2>
+            <p>teia - malha - trama - cilada</p>
+            <p>social esportes pesca comunicações bancária celular</p>
+            <p></p>
+            <p>Dicionário Houaiss: sistema constituído pela interligação de dois ou mais computadores e seus periféricos, com o objetivo de comunicação, compartilhamento e intercâmbio de dados.</p>
+        </article>
+    </section>
+
+    <section class="c03" id="s03">
+        <header>
+            <ul>
+                <li><a href="#s02"><</a></li>
+                <li><span>3</span></li>
+                <li><a href="#s04">></a></li>
+            </ul>
+        </header>
+        <article>
+            <h1>Componentes de uma Rede</h1>
+            <h2>Hardware</h2>
+            <p>Computadores, smartphones, roteadores, switches, servidores, impressoras...</p>
+            <h2>Software</h2>
+            <p>Navegadores, email, HTTP, TCP/IP, drivers...</p>
+            <h3>"Rede de computadores é o conjunto de hardware e software"</h3>
+        </article>
+    </section>
+
+    <section class="c04" id="s04">
+        <header>
+            <ul>
+                <li><a href="#s03"><</a></li>
+                <li><span>4</span></li>
+                <li><a href="#s05">></a></li>
+            </ul>
+        </header>
+        <article>
+            <h1>E a Internet?</h1>
+            <p>Implementação de uma rede</p>
+            <p>Elementos de computação interligados</p>
+            <p>Enlaces de comunicação:</p>
+            <p>Fibra, rádio, satélite, cabo...</p>
+        </article>
+    </section>
+
+    <section class="c05" id="s05">
+        <header>
+            <ul>
+                <li><a href="#s04"><</a></li>
+                <li><span>5</span></li>
+                <li><a href="#s06">></a></li>
+            </ul>
+        </header>
+        <article>
+            <h1>O que são Protocolos?</h1>
+            <h2>Definem regras</h2>
+            <p>Formatos e ordem das mensagens</p>
+            <p>Ações a serem tomadas na transmissão e recepção das mensagens</p>
+            <h3>"Toda a atividade de comunicação na internet é governada por protocolos"</h3>
+        </article>
+    </section>
+
+    <section class="c06" id="s06">
+        <header>
+            <ul>
+                <li><a href="#s05"><</a></li>
+                <li><span>6</span></li>
+                <li><a href="#s07">></a></li>
+            </ul>
+        </header>
+        <article>
+            <h1>Tipos de Protocolos</h1>
+            <p><em>Aplicação:</em> WWW, HTTP, SMPT, FTP e SSH</p>
+            <p><em>Transporte:</em> TCP, UDP e SCTP.</p>
+            <p><em>Rede:</em> IP (IPv4 e IPv6)</p>
+            <p><em>Estrutura Física:</em> Ethernet e Modem</p>
+        </article>
+    </section>
+    <section class="c01" id="s07">
+        <header>
+            <ul>
+                <li><a href="#s06"><</a></li>
+                <li><span>7</span></li>
+                <li><a href="#s08">></a></li>
+            </ul>
+        </header>
+        <article>
+            <h1>Protocolo TCP/IP</h1>
+            <p><em>TCP:</em> Transmission Control Protocol (Protocolo de Controle de Transmissão)</p>
+            <p><em>Transporte:</em> TCP, UDP e SCTP.</p>
+            <p><em>Rede:</em> IP (IPv4 e IPv6)</p>
+            <p><em>Estrutura Física:</em> Ethernet e Modem</p>
+        </article>
+    </section>
+    <section class="c02" id="s08">
+        <header>
+            <ul>
+                <li><a href="#s07"><</a></li>
+                <li><span>8</span></li>
+                <li><a href="#s09">></a></li>
+            </ul>
+        </header>
+        <article>
+            <h1>As 4 camadas TCP/IP</h1>
+            <p><em>Aplicação:</em> HTTP (nav) FTP (transf) SMTP (emails)</p>
+            <p><em>Transporte:</em> pequenos pacotes</p>
+            <p><em>Rede:</em> anexa ao IP</p>
+            <p><em>Interface:</em> executa env. rec.</p>
+        </article>
+    </section>
+    <section class="c03" id="s09">
+        <header>
+            <ul>
+                <li><a href="#s08"><</a></li>
+                <li><span>9</span></li>
+                <li><a href="#s10">></a></li>
+            </ul>
+        </header>
+        <article>
+            <h1>Protocolo HTTP</h1>
+            <h2>Hypertext Transfer Protocol</h2>
+            <h2>Protocolo de Transferência de Hipertexto</h2>
+            <p> Ele é o mais básico e usado para navegação em sites da internet</p>
+            <p>O protocolo HTTP funciona também como uma conexão entre o cliente e o servidor</p>
+            <p>O navegador envia um pedido de acesso a uma página</p>
+            <p>o servidor manda uma resposta de permissão de acesso</p>
+        </article>
+    </section>
+    <section class="c04" id="s10">
+        <header>
+            <ul>
+                <li><a href="#s09"><</a></li>
+                <li><span>10</span></li>
+                <li><a href="#11">></a></li>
+            </ul>
+        </header>
+        <article>
+            <h1>Protocolo HTTPS</h1>
+            <h2>Hypertext Transfer Protocol Secure</h2>
+            <h2>Protocolo de Transferência de Hipertexto Seguro</h2>
+            <p>Igual ao HTTP.</p>
+            <p>camada extra de proteção</p>
+            <p>Certificado SSL</p>
+            <p>o servidor manda uma resposta de permissão de acesso</p>
+        </article>
+    </section>
+</body>
+</html>
